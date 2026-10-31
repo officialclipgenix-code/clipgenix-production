@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="26" y1="24" x2="1179" y2="621" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0C1446"/>
+      <stop offset="1" stop-color="#2B5C92"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(0 381 -414 0 954 212)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B3CDE0" stop-opacity=".48"/>
+      <stop offset="1" stop-color="#B3CDE0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1200v630H0z"/>
+  <path fill="url(#glow)" d="M0 0h1200v630H0z"/>
+  <circle cx="922" cy="308" r="181" stroke="#DDEEF7" stroke-opacity=".26" stroke-width="2"/>
+  <circle cx="922" cy="308" r="136" stroke="#DDEEF7" stroke-opacity=".2"/>
+  <circle cx="922" cy="308" r="86" fill="#B3CDE0" fill-opacity=".15" stroke="#DDEEF7" stroke-opacity=".58" stroke-width="2"/>
+  <rect x="857" y="217" width="130" height="185" rx="54" fill="#B3CDE0" fill-opacity=".38" stroke="#EAF5FB" stroke-opacity=".62" stroke-width="2"/>
+  <text x="119" y="226" fill="#B3CDE0" font-family="Arial,sans-serif" font-size="20" letter-spacing="6">CLIPGENIX PRODUCTION</text>
+  <text x="113" y="333" fill="#fff" font-family="Arial,sans-serif" font-size="68" font-weight="700">Helping Brands</text>
+  <text x="113" y="417" fill="#B3CDE0" font-family="Arial,sans-serif" font-size="68" font-weight="700">Become Brands.</text>
+  <text x="119" y="481" fill="#E3EDF4" font-family="Arial,sans-serif" font-size="22">Creative visuals, engaging videos and content for growing brands.</text>
+  <path d="M120 536h190" stroke="#B3CDE0" stroke-opacity=".72" stroke-width="2"/>
+</svg>

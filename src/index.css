@@ -1,0 +1,91 @@
+:root {
+  font-family: 'Inter', Arial, sans-serif;
+  color: #0c1446;
+  background: #fff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --navy: #0c1446;
+  --blue: #2b5c92;
+  --ice: #b3cde0;
+  --pale: #edf4f8;
+  --white: #fff;
+  --ink-muted: #536174;
+  --line: #dce5eb;
+  --heading: 'Space Grotesk', 'Inter', Arial, sans-serif;
+  --container: 1200px;
+  --ease: cubic-bezier(.2, .7, .2, 1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 0;
+  scroll-behavior: smooth;
+  scroll-padding-top: 92px;
+}
+
+body {
+  min-width: 0;
+  min-height: 100vh;
+  margin: 0;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+button,
+input,
+select,
+textarea {
+  font-size: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  color: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video,
+svg {
+  max-width: 100%;
+}
+
+::selection {
+  color: var(--navy);
+  background: var(--ice);
+}
+
+:focus-visible {
+  outline: 3px solid #4d91c9;
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}
